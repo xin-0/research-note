@@ -9,7 +9,7 @@ $\circ$ : string concatenation operator.
 
 ### An example of encoding: Representing pairs and tuples
 To Encode $\braket{x, y}$ into binary
-1. encode $\braket{x, y}$ as the string $\llcorner x\lrcorner \circ \# \circ \llcorner y\lrcorner$ over the alphabet $\{0, 1, \#\}$
+1. encode $\braket{x, y}$ as the string ${}_\llcorner x_\lrcorner \circ \# \circ {}_\llcorner y_\lrcorner$ over the alphabet $\{0, 1, \#\}$
 2. then use mapping: $0\mapsto00, 1\mapsto11, \#\mapsto01$,
 
 ## 0.2 Decision problem / languages

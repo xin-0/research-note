@@ -41,7 +41,7 @@ Let $f:\{0,1\}^* \to \{0,1\}^*$ and let $T:\mathbb{N\to N}$ be some functions, a
 #### remark
 - In the definition, the function measuring runtime, $T$ only have to be a map from $\mathbb N\to \mathbb N$ and no other requirements.
 ### definition: Time-constructible
->A function $T:\mathbb{N \to N}$ is *time constructible* if $T(n)\ge n$ and there is a TM $M$ that computes the function $x \mapsto {}_\llcorner T(\vert x\vert) {}_\lrcorner$ in time $T(n)$.
+>A function $T:\mathbb{N \to N}$ is [[time constructible]] if $T(n)\ge n$ and there is a TM $M$ that computes the function $x \mapsto {}_\llcorner T(\vert x\vert) {}_\lrcorner$ in time $T(n)$.
 
 #### remark
 - $T(n)\ge n$ restriction in the definition is to allow the algorithm time to read its input.
